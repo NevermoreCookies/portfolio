@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	word-spacing: 90%;
+	font-size: 105%;
+	font-weight: bold;
+    font-family: fantasy;
+    color: #000;
+}
+
+.gian{
+	position: relative;
+	width: 80%;
+	height: 10vh;
+	word-spacing: inline;
+	background: #FDFEFE ;
+}
+
+.gian a:hover{
+  color: purple;
+
+}
+nav{
+
+	display: flex;
+	width: 100%;
+	margin: auto;
+	padding: 5px 15px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000000;
+	 font-weight: bold;
+}
+
+.comrades{
+	font-size: 200%;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+.comrades h2{
+	font-weight: bold;
+	font-size: 150%;
+	color: red;
+}
+.images{
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 3%;
+  width: 95%;
+  height: 100%;
+  align-items: top;
+
+}
+
+.images img{
+	left: 90%;
+	height: 600%;
+	width: 30%;
+	bottom: 3%;
+    transform: translate(-50%);
+	position: absolute;
+	
+
+}
+.contacts{
+    margin-top: 5%;
+	margin-bottom: 10%;
+	margin-left: 50%;
+	height: 50%;
+
+}
+.logo2{
+margin-left: 20%;
+}
+
+.about{
+	font-size: 3rem;
+    margin-left: 20%;
+	margin-top: 10%;
+}
+.about h1{
+	color: red;
+	margin-left: -15%;
+}
+.about p{
+	color: indigo;
+	letter-spacing: 2px;
+	font-size: 2rem;
+	margin-right: 10%;
+	margin-left: -15%;
+}
+
+.about-pic{
+	position: absolute;
+	margin-left: 80%;
+	margin-top: -38%;
+	width: 80px;
+	height: 100%;
+	align-items: top;
+}
